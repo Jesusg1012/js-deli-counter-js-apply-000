@@ -9,7 +9,7 @@ function nowServing(lin)
     return "There is nobody waiting to be served!";
   var name = lin[0];
   lin.shift();
-  return name;
+  return "Currently serving " + name;
 }
 function currentLine(lin)
 {
