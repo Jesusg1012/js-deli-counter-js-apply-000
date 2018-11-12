@@ -15,9 +15,10 @@ function currentLine(lin)
 {
   if(lin.length === 0)
     return "The line is currently empty";
-  var line = "The line is currently: ";
-  for(var x = 0; x < lin.length; x++)
+  var line = "The line is currently: 1. " + lin[0];
+  for(var x = 1; x < lin.length; x++)
   {
-    
+    line+= ", " + x+1 +". "+ lin[x];
   }
+  return line;
 }
