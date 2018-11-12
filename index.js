@@ -18,7 +18,7 @@ function currentLine(lin)
   var line = "The line is currently: 1. " + lin[0];
   for(var x = 1; x < lin.length; x++)
   {
-    line+= ", " + x+1 +". "+ lin[x];
+    line+= ", " + (x+1) +". "+ lin[x];
   }
   return line;
 }
